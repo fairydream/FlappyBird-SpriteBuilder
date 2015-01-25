@@ -40,8 +40,8 @@
     self.userInteractionEnabled = TRUE;
     
     _grounds = @[_ground1, _ground2];
-    _clouds = @[_cloud1, _cloud2];
-    _bushes = @[_bush1, _bush2];
+  //  _clouds = @[_cloud1, _cloud2];
+  //  _bushes = @[_bush1, _bush2];
     
     for (CCNode *ground in _grounds) {
         // set collision txpe
@@ -154,7 +154,7 @@
         }
     }
     
-    // move and loop the bushes
+  /*  // move and loop the bushes
     for (CCNode *bush in _bushes) {
         // move the bush
         bush.position = ccp(bush.position.x -
@@ -180,7 +180,7 @@
             cloud.position = ccp(cloud.position.x +
                                  2 * cloud.contentSize.width, cloud.position.y);
         }
-    }
+    }*/
     
     NSMutableArray *offScreenObstacles = nil;
     
