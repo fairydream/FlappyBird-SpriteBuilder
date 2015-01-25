@@ -160,12 +160,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>clouds</string>
-				<key>locked</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
-				<string>_cloud1
-timeSinceObstacle += delta; // delta is approximately 1/60th of a second
-
+				<string>
 // Check to see if two seconds have passed
 if (timeSinceObstacle &gt; 2.0f)
 {
@@ -269,6 +265,8 @@ if (timeSinceObstacle &gt; 2.0f)
 						<array/>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
